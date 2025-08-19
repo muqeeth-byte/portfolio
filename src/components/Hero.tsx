@@ -22,7 +22,7 @@ const Hero = () => {
 
       <div className="relative z-10 max-w-4xl mx-auto px-6 py-20">
         <div className="text-center animate-fade-in">
-            <Badge variant="skill" className="mb-4 text-base px-4 py-2 bg-gradient-to-r from-blue-400 to-purple-500 bg-clip-text text-transparent"">
+            <Badge variant="skill" className="mb-4 text-base px-4 py-2 text-white font-semibold"">
               Data Scientist & ML Engineer
             </Badge>
             
