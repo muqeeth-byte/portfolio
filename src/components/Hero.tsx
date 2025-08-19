@@ -66,7 +66,7 @@ const Hero = () => {
                 Get In Touch
               </Button>
               <Button 
-                variant="outline" 
+                variant="hero" 
                 size="lg" 
                 className="border-white/30 text-white hover:bg-white/10 group"
                 asChild
