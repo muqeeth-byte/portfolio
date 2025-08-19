@@ -10,11 +10,11 @@ const Education = () => {
       degree: "Bachelor of Technology",
       field: "Artificial Intelligence and Data Science",
       duration: "Nov 2021 - July 2025",
-      status: "Currently Pursuing",
+      status: "Completed",
       description: "Specialized program focusing on AI, machine learning, data science, and advanced analytics",
       highlights: ["Machine Learning", "Deep Learning", "Data Analytics", "Statistical Modeling"],
       icon: "🎓",
-      isCurrentlyStudying: true
+      isCurrentlyStudying: false
     },
     {
       id: 2,
