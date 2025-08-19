@@ -266,7 +266,7 @@ const Certifications = () => {
           </Card>
           <Card className="text-center border-0 bg-gradient-card">
             <CardContent className="p-6">
-              <div className="text-3xl font-bold text-primary mb-2">2024</div>
+              <div className="text-3xl font-bold text-primary mb-2">2025</div>
               <p className="text-sm text-muted-foreground">Latest Year</p>
             </CardContent>
           </Card>
