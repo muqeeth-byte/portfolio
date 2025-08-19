@@ -27,9 +27,9 @@ const Hero = () => {
             </Badge>
             
             <h1 className="text-5xl lg:text-6xl font-bold text-white mb-6 leading-tight">
-              Mohammad Abdul{" "}
+              {" "}
               <span className="bg-gradient-to-r from-accent-glow to-white bg-clip-text text-transparent">
-                Muqeeth
+               Mohammad Abdul Muqeeth
               </span>
             </h1>
             
