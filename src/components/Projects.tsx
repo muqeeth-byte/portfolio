@@ -12,6 +12,7 @@ const Projects = () => {
       description: "Advanced analysis of ECG images using machine learning and deep learning techniques, ensuring improved accuracy, cost-effectiveness, and non-invasive diagnostics for early cardiovascular disease detection.",
       icon: <Heart className="w-8 h-8" />,
       technologies: ["Python", "CNN", "SqueezeNet", "Xception", "Deep Learning", "Medical Imaging"],
+      publication: "https://sciencexcel.com/article/detection-of-cardiovascular-diseases-in-ecg-images-using-machine-learning-and-deep-learning-methods",
       features: [
         "ECG image analysis using advanced neural networks",
         "CNN, SqueezeNet, and Xception model implementation",
@@ -80,13 +81,20 @@ const Projects = () => {
                           <p className="text-muted-foreground leading-relaxed">{project.description}</p>
                         </div>
                         <div className="flex gap-2 ml-4">
-                          <Button variant="ghost" size="icon" className="hover:bg-primary/10">
-                            <Github className="w-5 h-5" />
-                          </Button>
-                          <Button variant="ghost" size="icon" className="hover:bg-primary/10">
-                            <ExternalLink className="w-5 h-5" />
-                          </Button>
-                        </div>
+
+  {/* Publication Button */}
+  {project.publication && (
+    <Button
+      variant="ghost"
+      size="icon"
+      className="hover:bg-primary/10"
+      onClick={() => window.open(project.publication, "_blank")}
+    >
+      <ExternalLink className="w-5 h-5" />
+    </Button>
+  )}
+
+</div>
                       </div>
                     </div>
                   </div>
