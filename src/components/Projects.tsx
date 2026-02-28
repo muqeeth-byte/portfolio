@@ -135,6 +135,18 @@ const Projects = () => {
 
                   {/* Impact */}
                   <div className="bg-accent/5 rounded-lg p-4 border border-accent/20">
+                    {/* Publication */}
+{project.publication && (
+  <div className="pt-2">
+    <Button
+      onClick={() => window.open(project.publication, "_blank")}
+      className="bg-primary hover:bg-primary/90"
+    >
+      <ExternalLink className="w-4 h-4 mr-2" />
+      View Publication
+    </Button>
+  </div>
+)}
                     <h4 className="font-semibold mb-2 text-accent">Project Impact</h4>
                     <p className="text-sm text-muted-foreground">{project.impact}</p>
                   </div>
