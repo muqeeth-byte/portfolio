@@ -132,10 +132,7 @@ const Projects = () => {
                       ))}
                     </div>
                   </div>
-
-                  {/* Impact */}
-                  <div className="bg-accent/5 rounded-lg p-4 border border-accent/20">
-                    {/* Publication */}
+ {/* Publication */}
 {project.publication && (
   <div className="pt-2">
     <Button
@@ -147,6 +144,9 @@ const Projects = () => {
     </Button>
   </div>
 )}
+                  {/* Impact */}
+                  <div className="bg-accent/5 rounded-lg p-4 border border-accent/20">
+                   
                     <h4 className="font-semibold mb-2 text-accent">Project Impact</h4>
                     <p className="text-sm text-muted-foreground">{project.impact}</p>
                   </div>
