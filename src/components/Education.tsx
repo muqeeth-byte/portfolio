@@ -13,7 +13,7 @@ const Education = () => {
       status: "Completed",
       description: "Specialized program focusing on AI, machine learning, data science, and advanced analytics",
       highlights: ["Machine Learning", "Deep Learning", "Data Analytics", "Statistical Modeling"],
-      icon: "🎓",
+     
       isCurrentlyStudying: false
     },
     {
@@ -25,7 +25,7 @@ const Education = () => {
       status: "Completed",
       description: "Higher secondary education with focus on mathematics and science",
       highlights: ["Mathematics", "Physics", "Chemistry", "Computer Science"],
-      icon: "📚",
+      
       isCurrentlyStudying: false
     },
     {
@@ -37,7 +37,7 @@ const Education = () => {
       status: "Completed",
       description: "Secondary education with strong foundation in core subjects",
       highlights: ["Academic Excellence", "STEM Foundation", "Leadership"],
-      icon: "🏫",
+      
       isCurrentlyStudying: false
     }
   ];
