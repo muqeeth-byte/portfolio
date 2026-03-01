@@ -6,41 +6,36 @@
 
 @layer base {
   :root {
-    /* Core Background & Text */
-    --background: 222 47% 6%;
---foreground: 210 40% 98%;
 
-    /* Card System */
-    --card: 222 40% 10%;
---card-foreground: 210 40% 98%;
+  --background: 0 0% 4%;
+  --foreground: 0 0% 98%;
 
-    --popover: 0 0% 100%;
-    --popover-foreground: 220 15% 15%;
+  --card: 0 0% 6%;
+  --card-foreground: 0 0% 98%;
 
-    /* Primary Brand - Deep Tech Blue */
-    --primary: 0 0% 100%;
---primary-foreground: 0 0% 6%;
+  --popover: 0 0% 6%;
+  --popover-foreground: 0 0% 98%;
 
-    /* Secondary - Elegant Gray */
-    --secondary: 0 0% 12%;
---secondary-foreground: 0 0% 90%;
+  --primary: 0 0% 98%;
+  --primary-foreground: 0 0% 5%;
 
-    /* Muted Tones */
-    --muted: 222 20% 14%;
-    --muted-foreground: 220 8% 46%;
+  --secondary: 0 0% 12%;
+  --secondary-foreground: 0 0% 90%;
 
-    /* Accent - ML Green */
-    --accent: 0 0% 18%;
---accent-foreground: 0 0% 95%;
+  --muted: 0 0% 12%;
+  --muted-foreground: 0 0% 65%;
+
+  --accent: 0 0% 10%;
+  --accent-foreground: 0 0% 98%;
 
     /* Destructive */
     --destructive: 0 84% 60%;
     --destructive-foreground: 0 0% 98%;
 
     /* UI Elements */
-    --border: 222 20% 18%;
-    --input: 220 13% 94%;
-    --ring: 220 91% 25%;
+    --border: 0 0% 15%;
+  --input: 0 0% 15%;
+  --ring: 0 0% 80%;
 
     /* Gradients */
     --gradient-hero: --gradient-hero:
