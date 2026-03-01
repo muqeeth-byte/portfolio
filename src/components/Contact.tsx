@@ -161,7 +161,8 @@ const Contact = () => {
                     className="w-full group"
                     asChild
                   >
-                    <a href="mailto:abdulmuqeeth04@gmail.com">
+                    <a  onClick={() =>
+    window.location.href="mailto:abdulmuqeeth04@gmail.com">
                       <Mail className="w-5 h-5 mr-2 group-hover:scale-110 transition-transform" />
                       Send Email
                     </a>
