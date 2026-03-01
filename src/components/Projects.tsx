@@ -161,7 +161,7 @@ const Projects = () => {
           <p className="text-muted-foreground mb-4">
             More projects available on my GitHub profile
           </p>
-          <Button variant="outline" size="lg" className="group">
+          <Button variant="outline" size="lg" className="group" onClick={() => window.open("https://github.com/muqeeth-byte", "_blank")}>
             <Github className="w-5 h-5 mr-2 group-hover:scale-110 transition-transform" />
             View GitHub Portfolio
           </Button>
