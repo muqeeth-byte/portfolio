@@ -22,7 +22,7 @@ const About = () => (
           }}
         >
           Passionate About{" "}
-          <span className="text-shimmer">Data Science</span>
+          <span className="text-shimmer">Machine Learning & Data Science</span>
         </h2>
         <div style={{ width: "40px", height: "2px", background: "#00D4FF", margin: "1rem auto 0" }} />
       </div>
