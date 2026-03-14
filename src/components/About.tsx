@@ -16,7 +16,7 @@ const About = () => (
         <h2
           style={{
             fontFamily: "'DM Serif Display', serif",
-            fontSize: "clamp(2rem, 5vw, 3.25rem)",
+            fontSize: "clamp(1.6rem, 4vw, 2.75rem)",
             marginTop: "1.25rem",
             color: "#f0f4f8",
           }}
