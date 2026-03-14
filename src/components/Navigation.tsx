@@ -70,7 +70,7 @@ const Navigation = () => {
               }}
               className="group-hover:text-white transition-colors"
             >
-              Data Scientist
+              Turning Data into Decisions
             </span>
           </a>
 
