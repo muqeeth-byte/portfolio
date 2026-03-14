@@ -9,7 +9,7 @@ const educationData = [
     status: "Completed",
     description: "Specialized program focusing on AI, machine learning, data science, and advanced analytics.",
     highlights: ["Machine Learning", "Deep Learning", "Data Analytics", "Statistical Modeling"],
-    icon: "🎓",
+    icon: "",
   },
   {
     id: 2,
@@ -19,7 +19,7 @@ const educationData = [
     status: "Completed",
     description: "Higher secondary education with focus on mathematics and science.",
     highlights: ["Mathematics", "Physics", "Chemistry", "Computer Science"],
-    icon: "📚",
+    icon: "",
   },
   {
     id: 3,
@@ -29,7 +29,7 @@ const educationData = [
     status: "Completed",
     description: "Secondary education with a strong foundation in core subjects.",
     highlights: ["Academic Excellence", "STEM Foundation", "Leadership"],
-    icon: "🏫",
+    icon: "",
   },
 ];
 
