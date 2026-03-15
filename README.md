@@ -1,73 +1,54 @@
-# Welcome to your Lovable project
+# Mohammad Abdul Muqeeth — Portfolio
 
-## Project info
+Personal portfolio website showcasing my work in Data Science, Machine Learning, and AI.
 
-**URL**: https://lovable.dev/projects/08e76d26-c1c3-4413-9ced-aec9ab5a1611
+🌐 **Live Site:** [mohdabdulmuqeeth.vercel.app](https://mohdabdulmuqeeth.vercel.app)
 
-## How can I edit this code?
+---
 
-There are several ways of editing your application.
+## 👨‍💻 About
 
-**Use Lovable**
+I'm a Data Scientist and ML Engineer based in Hyderabad, India. This portfolio highlights my projects, skills, certifications, and academic background in Artificial Intelligence and Data Science.
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/08e76d26-c1c3-4413-9ced-aec9ab5a1611) and start prompting.
+---
 
-Changes made via Lovable will be committed automatically to this repo.
+## 🛠️ Built With
 
-**Use your preferred IDE**
+- React + TypeScript
+- Vite
+- Tailwind CSS
+- Vercel (Deployment)
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+---
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+## 📂 Sections
 
-Follow these steps:
+- **Hero** — Introduction with typewriter animation
+- **About** — Background and professional objective
+- **Skills** — Technical skills and tools
+- **Projects** — Featured ML and data science projects
+- **Education** — Academic background
+- **Certifications** — Industry certifications and achievements
+- **Contact** — Ways to get in touch
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+---
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
-
-# Step 3: Install the necessary dependencies.
-npm i
-
-# Step 4: Start the development server with auto-reloading and an instant preview.
+## 🚀 Run Locally
+```bash
+git clone https://github.com/muqeeth-byte/portfolio.git
+cd portfolio
+npm install
 npm run dev
 ```
 
-**Edit a file directly in GitHub**
+---
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+## 📬 Contact
 
-**Use GitHub Codespaces**
+- 📧 abdulmuqeeth04@gmail.com
+- 💼 [LinkedIn](http://www.linkedin.com/in/mohd-abdul-muqeeth)
+- 🐙 [GitHub](https://github.com/muqeeth-byte)
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+---
 
-## What technologies are used for this project?
-
-This project is built with:
-
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
-
-## How can I deploy this project?
-
-Simply open [Lovable](https://lovable.dev/projects/08e76d26-c1c3-4413-9ced-aec9ab5a1611) and click on Share -> Publish.
-
-## Can I connect a custom domain to my Lovable project?
-
-Yes, you can!
-
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
-
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/tips-tricks/custom-domain#step-by-step-guide)
+© 2025 Mohammad Abdul Muqeeth
