@@ -289,7 +289,17 @@ const Certifications = () => (
               className="card-glass"
               style={{ padding: "1.25rem", display: "flex", alignItems: "center", gap: "1rem" }}
             >
-              <span style={{ fontSize: "1.5rem", flexShrink: 0 }}>{cert.icon}</span>
+              <img
+  src={cert.logo}
+  alt={cert.issuer}
+  style={{
+    width: "100%",
+    height: "100%",
+    objectFit: "contain",
+    padding: "6px",
+    filter: "brightness(0) invert(1)",
+  }}
+/>
               <div style={{ flex: 1, minWidth: 0 }}>
                 <h5
                   style={{
