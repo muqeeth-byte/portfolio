@@ -164,7 +164,17 @@ const Certifications = () => (
             >
               <div style={{ display: "flex", justifyContent: "space-between", alignItems: "flex-start", marginBottom: "1rem" }}>
                 <div style={{ display: "flex", alignItems: "center", gap: "0.75rem" }}>
-                  <span style={{ fontSize: "1.75rem" }}>{cert.icon}</span>
+                  <img
+  src={cert.logo}
+  alt={cert.issuer}
+  style={{
+    width: "100%",
+    height: "100%",
+    objectFit: "contain",
+    padding: "6px",
+    filter: "brightness(0) invert(1)",
+  }}
+/>
                   <div>
                     <h4
                       style={{
