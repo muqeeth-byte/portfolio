@@ -41,22 +41,7 @@ const Contact = () => (
       >
         {/* Left */}
         <div className="animate-slide-right" style={{ animationDelay: "0.1s" }}>
-          <h3
-            style={{
-              fontFamily: "'Outfit', sans-serif",
-              fontWeight: 600,
-              fontSize: "1rem",
-              color: "rgba(255,255,255,0.55)",
-              letterSpacing: "0.05em",
-              textTransform: "uppercase",
-              marginBottom: "1.25rem",
-              fontFamily: "'JetBrains Mono', monospace",
-              fontSize: "0.72rem",
-              letterSpacing: "0.14em",
-            }}
-          >
-            Contact Information
-          </h3>
+          
 
           <div style={{ display: "flex", flexDirection: "column", gap: "0.75rem", marginBottom: "2.5rem" }}>
             {contactInfo.map((item, i) => (
