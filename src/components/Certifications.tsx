@@ -182,7 +182,7 @@ const Certifications = () => (
             <div key={cert.id} className="card-glass" style={{ padding: "1.25rem", display: "flex", alignItems: "center", gap: "1rem" }}>
               <span style={{ fontSize: "1.5rem", flexShrink: 0 }}>{cert.icon}</span>
               <div style={{ flex: 1, minWidth: 0 }}>
-                <h5 style={{ fontFamily: "'Outfit', sans-serif", fontWeight: 600, fontSize: "0.88rem", color: "#e8edf2", marginBottom: "0.15rem", overflow: "hidden", textOverflow: "ellipsis", whiteSpace: "nowrap" }}>
+                <h5 style={{ fontFamily: "'Outfit', sans-serif", fontWeight: 600, fontSize: "0.88rem", color: "#e8edf2", marginBottom: "0.15rem" }}>
                   {cert.title}
                 </h5>
                 <p style={{ fontFamily: "'JetBrains Mono', monospace", fontSize: "0.65rem", color: cert.accent, letterSpacing: "0.05em" }}>
