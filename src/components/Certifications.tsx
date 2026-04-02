@@ -10,7 +10,7 @@ const certifications = [
     level: "Fundamental",
     skills: ["Azure Services", "Cloud Computing", "Microsoft Cloud"],
     
-    link: "https://drive.google.com/file/d/10n8-XPA_4VVBQD15kJ5L-JUoQKtgiBO7/view?usp=drive_link",
+    link: "https://drive.google.com/file/d/10n8-XPA_4VVBQD15kJ5L-JUoQKtgiBO7/preview",
     featured: true,
     accent: "#0078D4",
   },
