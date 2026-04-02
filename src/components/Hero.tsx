@@ -164,15 +164,16 @@ const Hero = () => {
               display: "flex",
               alignItems: "center",
               gap: "8px",
+              textDecoration: "none",
               transition: "transform 0.2s, box-shadow 0.2s",
             }}
             onMouseEnter={(e) => {
-              e.currentTarget.style.transform = "translateY(-2px)";
-              e.currentTarget.style.boxShadow = "0 8px 28px -4px rgba(0,212,255,0.45)";
+              (e.currentTarget as HTMLElement).style.transform = "translateY(-2px)";
+              (e.currentTarget as HTMLElement).style.boxShadow = "0 8px 28px -4px rgba(0,212,255,0.45)";
             }}
             onMouseLeave={(e) => {
-              e.currentTarget.style.transform = "translateY(0)";
-              e.currentTarget.style.boxShadow = "none";
+              (e.currentTarget as HTMLElement).style.transform = "translateY(0)";
+              (e.currentTarget as HTMLElement).style.boxShadow = "none";
             }}
           >
             <Download size={14} />
