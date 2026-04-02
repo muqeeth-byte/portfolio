@@ -256,7 +256,7 @@ const Hero = () => {
           {["Python", "TensorFlow", "SQL", "Machine Learning", "Deep Learning", "Data Viz"].map((t) => (
             <span key={t} className="skill-pill">{t}</span>
           ))}
-        </a>
+        
         </div>
       </div>
 
