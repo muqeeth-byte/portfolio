@@ -40,7 +40,20 @@ const Contact = () => (
         className="grid-cols-1 lg:grid-cols-2"
       >
         {/* Left */}
+       {/* Left */}
         <div className="animate-slide-right" style={{ animationDelay: "0.1s" }}>
+          <h3
+            style={{
+              fontFamily: "'JetBrains Mono', monospace",
+              fontSize: "0.72rem",
+              letterSpacing: "0.14em",
+              textTransform: "uppercase",
+              color: "rgba(255,255,255,0.4)",
+              marginBottom: "1.25rem",
+            }}
+          >
+            Contact Information
+          </h3>
           
 
           <div style={{ display: "flex", flexDirection: "column", gap: "0.75rem", marginBottom: "2.5rem" }}>
