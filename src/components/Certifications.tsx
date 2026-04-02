@@ -1,5 +1,3 @@
-
-```tsx
 import { Award, ExternalLink, Star } from "lucide-react";
 
 const certifications = [
