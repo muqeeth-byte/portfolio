@@ -164,15 +164,15 @@ const Certifications = () => (
             >
               <div style={{ display: "flex", justifyContent: "space-between", alignItems: "flex-start", marginBottom: "1rem" }}>
                 <div style={{ display: "flex", alignItems: "center", gap: "0.75rem" }}>
-                  <img
+                 <img
   src={cert.logo}
   alt={cert.issuer}
   style={{
-    width: "100%",
-    height: "100%",
+    width: "36px",
+    height: "36px",
     objectFit: "contain",
-    padding: "6px",
     filter: "brightness(0) invert(1)",
+    flexShrink: 0,
   }}
 />
                   <div>
@@ -289,17 +289,26 @@ const Certifications = () => (
               className="card-glass"
               style={{ padding: "1.25rem", display: "flex", alignItems: "center", gap: "1rem" }}
             >
-              <img
+             <img
   src={cert.logo}
   alt={cert.issuer}
   style={{
-    width: "100%",
-    height: "100%",
+    width: "28px",
+    height: "28px",
     objectFit: "contain",
-    padding: "6px",
     filter: "brightness(0) invert(1)",
+    flexShrink: 0,
   }}
 />
+```
+
+Also fix the **HackerRank logo** — find this in the array (3 places):
+```
+https://upload.wikimedia.org/wikipedia/commons/6/65/HackerRank_logo.png
+```
+Replace all 3 with:
+```
+https://upload.wikimedia.org/wikipedia/commons/4/40/HackerRank_Icon-1000px.png
               <div style={{ flex: 1, minWidth: 0 }}>
                 <h5
                   style={{
