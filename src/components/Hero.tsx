@@ -147,6 +147,9 @@ const Hero = () => {
           style={{ animationDelay: "0.55s" }}
         >
           <button
+            href="https://drive.google.com/uc?export=download&id=1C1S37nVidsrVXfFG3U4dc126ZQ2yK1WL"
+            target="_blank"
+            rel="noopener noreferrer"
             style={{
               fontFamily: "'JetBrains Mono', monospace",
               fontSize: "0.75rem",
