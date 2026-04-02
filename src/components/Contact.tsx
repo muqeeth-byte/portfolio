@@ -39,7 +39,7 @@ const Contact = () => (
       <div style={{ display: "grid", gridTemplateColumns: "1fr 1fr", gap: "3rem", alignItems: "start" }}
         className="grid-cols-1 lg:grid-cols-2"
       >
-        {/* Left */}
+     
        {/* Left */}
         <div className="animate-slide-right" style={{ animationDelay: "0.1s" }}>
           <h3
