@@ -23,7 +23,7 @@ const certifications = [
     level: "Elite",
     skills: ["Cloud Architecture", "Distributed Systems", "Scalability"],
    
-    link: "https://nptel.ac.in",
+    link: "https://drive.google.com/file/d/16Oi-3v6COKhWcq9tiObh9iMW6b9PoGVC/preview?usp=drive_link",
     featured: true,
     accent: "#2ecc71",
   },
@@ -36,7 +36,7 @@ const certifications = [
     level: "Intermediate",
     skills: ["Python", "Data Analysis", "Scientific Computing"],
     
-    link: "https://nptel.ac.in",
+    link: "https://drive.google.com/file/d/15H7JQ6kLtXh3elF930NtKX_fNUgf2aw-/preview?usp=drive_link",
     featured: true,
     accent: "#f39c12",
   },
@@ -49,7 +49,7 @@ const certifications = [
     level: "Beginner",
     skills: ["ML Algorithms", "Supervised Learning", "Model Training"],
    
-    link: "https://infosysspringboard.com",
+    link: "https://drive.google.com/file/d/1CMUVricKZRMd-fvEgRk2B3pURGaw46-M/preview?usp=drive_link",
     featured: false,
     accent: "#9b59b6",
   },
@@ -62,7 +62,7 @@ const certifications = [
     level: "Beginner",
     skills: ["Python Syntax", "Data Structures", "OOP"],
    
-    link: "https://infosysspringboard.com",
+    link: "https://drive.google.com/file/d/1eBGueZMtEunTLoff-bvJVs3sqc2k2pWb/preview?usp=drive_link",
     featured: false,
     accent: "#3498db",
   },
@@ -75,7 +75,7 @@ const certifications = [
     level: "Basic",
     skills: ["Problem Solving", "Python Fundamentals", "Algorithms"],
     
-    link: "https://www.hackerrank.com/certificates/",
+    link: "https://drive.google.com/file/d/1Yc90eQtVlZVd9R8iq1J0df9WIlZqeagE/preview?usp=drive_link",
     featured: false,
     accent: "#2ecc71",
   },
@@ -88,7 +88,7 @@ const certifications = [
     level: "Basic",
     skills: ["Java Syntax", "OOP Concepts", "Problem Solving"],
    
-    link: "https://www.hackerrank.com/certificates/",
+    link: "https://drive.google.com/file/d/1LFRT0kfRMFQLJv29M7DOpkeSNcHHkVru/preview?usp=drive_link",
     featured: false,
     accent: "#e74c3c",
   },
@@ -101,7 +101,7 @@ const certifications = [
     level: "Basic",
     skills: ["SQL Queries", "Database Design", "Data Manipulation"],
     
-    link: "https://www.hackerrank.com/certificates/",
+    link: "https://drive.google.com/file/d/1rFW_0mxSZQ4-bs0wmb47nG7Bfu5ckypu/preview?usp=drive_link",
     featured: false,
     accent: "#00D4FF",
   },
