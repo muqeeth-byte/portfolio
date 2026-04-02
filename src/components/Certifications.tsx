@@ -45,7 +45,7 @@ const certifications = [
     description: "Foundational ML algorithms, supervised learning, and model training concepts.",
     level: "Beginner",
     skills: ["ML Algorithms", "Supervised Learning", "Model Training"],
-    logo: "https://upload.wikimedia.org/wikipedia/commons/9/95/Infosys_logo.svg",
+    
     featured: false,
     accent: "#9b59b6",
   },
