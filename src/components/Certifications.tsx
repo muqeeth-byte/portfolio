@@ -61,7 +61,7 @@ const certifications = [
     description: "Python programming fundamentals, data structures, and best practices.",
     level: "Beginner",
     skills: ["Python Syntax", "Data Structures", "OOP"],
-   ,
+   
     link: "https://infosysspringboard.com",
     featured: false,
     accent: "#3498db",
