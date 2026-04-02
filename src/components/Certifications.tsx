@@ -9,7 +9,7 @@ const certifications = [
     description: "Certified in cloud concepts, Azure services, and solutions architecture fundamentals.",
     level: "Fundamental",
     skills: ["Azure Services", "Cloud Computing", "Microsoft Cloud"],
-    logo: "/azure.svg.png",
+   
     featured: true,
     accent: "#0078D4",
   },
@@ -21,7 +21,7 @@ const certifications = [
     description: "ELITE-level certification covering advanced cloud computing concepts and distributed systems.",
     level: "Elite",
     skills: ["Cloud Architecture", "Distributed Systems", "Scalability"],
-    logo: "/nptel.png",
+  
     featured: true,
     accent: "#2ecc71",
   },
@@ -33,7 +33,7 @@ const certifications = [
     description: "Comprehensive Python programming for data science applications and scientific computing.",
     level: "Intermediate",
     skills: ["Python", "Data Analysis", "Scientific Computing"],
-    logo: "/nptel.png",
+   
     featured: true,
     accent: "#f39c12",
   },
@@ -57,7 +57,7 @@ const certifications = [
     description: "Python programming fundamentals, data structures, and best practices.",
     level: "Beginner",
     skills: ["Python Syntax", "Data Structures", "OOP"],
-    logo: "https://upload.wikimedia.org/wikipedia/commons/9/95/Infosys_logo.svg",
+    
     featured: false,
     accent: "#3498db",
   },
@@ -69,7 +69,7 @@ const certifications = [
     description: "Validated Python skills through practical coding challenges.",
     level: "Basic",
     skills: ["Problem Solving", "Python Fundamentals", "Algorithms"],
-    logo: "/hackerrank.png",
+   
     featured: false,
     accent: "#2ecc71",
   },
@@ -81,7 +81,7 @@ const certifications = [
     description: "Basic Java proficiency through coding assessments.",
     level: "Basic",
     skills: ["Java Syntax", "OOP Concepts", "Problem Solving"],
-    logo: "/hackerrank.png",
+    
     featured: false,
     accent: "#e74c3c",
   },
@@ -93,7 +93,7 @@ const certifications = [
     description: "SQL fundamentals and database querying skills validation.",
     level: "Basic",
     skills: ["SQL Queries", "Database Design", "Data Manipulation"],
-    logo: "/hackerrank.png",
+    
     featured: false,
     accent: "#00D4FF",
   },
