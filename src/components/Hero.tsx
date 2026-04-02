@@ -146,7 +146,7 @@ const Hero = () => {
           className="animate-fade-up flex flex-wrap justify-center gap-4 mb-14"
           style={{ animationDelay: "0.55s" }}
         >
-          <button
+          
             href="https://drive.google.com/uc?export=download&id=1C1S37nVidsrVXfFG3U4dc126ZQ2yK1WL"
             target="_blank"
             rel="noopener noreferrer"
@@ -178,7 +178,7 @@ const Hero = () => {
           >
             <Download size={14} />
             DOWNLOAD CV
-          </button>
+          </a>
 
           <a
             href="https://mail.google.com/mail/?view=cm&fs=1&to=abdulmuqeeth04@gmail.com"
