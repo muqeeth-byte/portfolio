@@ -51,7 +51,7 @@ const Navigation = () => {
                 letterSpacing: "0.15em",
               }}
             >
-              MAM
+              ABDUL MUQEETH
             </span>
             <span
               style={{
@@ -62,15 +62,27 @@ const Navigation = () => {
             />
             <span
               style={{
-                fontFamily: "'Outfit', sans-serif",
-                fontSize: "0.85rem",
+                fontFamily: "'JetBrains Mono', monospace",
+                fontSize: "0.72rem",
                 fontWeight: 500,
-                color: "rgba(255,255,255,0.7)",
-                letterSpacing: "0.02em",
+                color: "rgba(255,255,255,0.0)",
+                letterSpacing: "0.12em",
+                transition: "color 0.3s, opacity 0.3s",
+                textTransform: "uppercase",
               }}
               className="group-hover:text-white transition-colors"
+              onMouseEnter={(e) => {
+                const el = e.currentTarget.previousElementSibling?.previousElementSibling as HTMLElement;
+                if (el) el.style.color = "transparent";
+                e.currentTarget.style.color = "#00D4FF";
+              }}
+              onMouseLeave={(e) => {
+                const el = e.currentTarget.previousElementSibling?.previousElementSibling as HTMLElement;
+                if (el) el.style.color = "#00D4FF";
+                e.currentTarget.style.color = "rgba(255,255,255,0)";
+              }}
             >
-              Turning Data into Decisions
+              DEVELOPER
             </span>
           </a>
 
