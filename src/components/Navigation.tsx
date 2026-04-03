@@ -60,29 +60,60 @@ const Navigation = () => {
                 background: "rgba(0,212,255,0.35)",
               }}
             />
-            <span
+          <span
               style={{
                 fontFamily: "'JetBrains Mono', monospace",
-                fontSize: "0.72rem",
-                fontWeight: 500,
-                color: "rgba(255,255,255,0.0)",
-                letterSpacing: "0.12em",
-                transition: "color 0.3s, opacity 0.3s",
-                textTransform: "uppercase",
+                fontSize: "0.75rem",
+                color: "#00D4FF",
+                letterSpacing: "0.15em",
+                display: "inline-block",
+                perspective: "400px",
+                cursor: "default",
               }}
-              className="group-hover:text-white transition-colors"
               onMouseEnter={(e) => {
-                const el = e.currentTarget.previousElementSibling?.previousElementSibling as HTMLElement;
-                if (el) el.style.color = "transparent";
-                e.currentTarget.style.color = "#00D4FF";
+                const front = e.currentTarget.querySelector(".word-front") as HTMLElement;
+                const back = e.currentTarget.querySelector(".word-back") as HTMLElement;
+                if (front) front.style.transform = "rotateX(90deg)";
+                if (front) front.style.opacity = "0";
+                if (back) back.style.transform = "rotateX(0deg)";
+                if (back) back.style.opacity = "1";
               }}
               onMouseLeave={(e) => {
-                const el = e.currentTarget.previousElementSibling?.previousElementSibling as HTMLElement;
-                if (el) el.style.color = "#00D4FF";
-                e.currentTarget.style.color = "rgba(255,255,255,0)";
+                const front = e.currentTarget.querySelector(".word-front") as HTMLElement;
+                const back = e.currentTarget.querySelector(".word-back") as HTMLElement;
+                if (front) front.style.transform = "rotateX(0deg)";
+                if (front) front.style.opacity = "1";
+                if (back) back.style.transform = "rotateX(-90deg)";
+                if (back) back.style.opacity = "0";
               }}
             >
-              DEVELOPER
+              <span
+                className="word-front"
+                style={{
+                  display: "block",
+                  transition: "transform 0.35s ease, opacity 0.35s ease",
+                  transform: "rotateX(0deg)",
+                  opacity: 1,
+                }}
+              >
+                ABDUL MUQEETH
+              </span>
+              <span
+                className="word-back"
+                style={{
+                  display: "block",
+                  position: "absolute",
+                  top: 0,
+                  left: 0,
+                  transition: "transform 0.35s ease, opacity 0.35s ease",
+                  transform: "rotateX(-90deg)",
+                  opacity: 0,
+                  color: "rgba(255,255,255,0.85)",
+                  whiteSpace: "nowrap",
+                }}
+              >
+                DEVELOPER
+              </span>
             </span>
           </a>
 
