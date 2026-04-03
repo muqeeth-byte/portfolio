@@ -43,23 +43,7 @@ const Navigation = () => {
             onClick={() => window.scrollTo({ top: 0, behavior: "smooth" })}
             className="flex items-center gap-2 cursor-pointer group"
           >
-            <span
-              style={{
-                fontFamily: "'JetBrains Mono', monospace",
-                fontSize: "0.75rem",
-                color: "#00D4FF",
-                letterSpacing: "0.15em",
-              }}
-            >
-              ABDUL MUQEETH
-            </span>
-            <span
-              style={{
-                width: "1px",
-                height: "14px",
-                background: "rgba(0,212,255,0.35)",
-              }}
-            />
+           
           <span
               style={{
                 fontFamily: "'JetBrains Mono', monospace",
