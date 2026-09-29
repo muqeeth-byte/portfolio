@@ -8,6 +8,7 @@ import Certifications from "@/components/Certifications";
 import Contact from "@/components/Contact";
 import ScrollToTop from "@/components/ScrollToTop";
 import ScrollProgress from "@/components/ScrollProgress";
+import SmoothFollower from "@/components/SmoothFollower";
 const Footer = () => (
   <footer
     style={{
@@ -44,6 +45,7 @@ const Index = () => (
     <Footer />
     <ScrollToTop />
     <ScrollProgress />
+    <SmoothFollower />
   </div>
 );
 
