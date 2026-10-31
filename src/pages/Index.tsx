@@ -9,6 +9,7 @@ import Contact from "@/components/Contact";
 import ScrollToTop from "@/components/ScrollToTop";
 import ScrollProgress from "@/components/ScrollProgress";
 import SmoothFollower from "@/components/SmoothFollower";
+import StarField from "@/components/StarField";
 const Footer = () => (
   <footer
     style={{
@@ -33,7 +34,8 @@ const Footer = () => (
 );
 
 const Index = () => (
-  <div style={{ minHeight: "100vh", background: "hsl(220,30%,4%)" }}>
+    <div style={{ minHeight: "100vh" }}>
+    <StarField />
     <Navigation />
     <Hero />
     <About />
