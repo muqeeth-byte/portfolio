@@ -144,3 +144,4 @@
 ::-webkit-scrollbar-track { background: hsl(220, 30%, 4%); }
 ::-webkit-scrollbar-thumb { background: rgba(0,212,255,0.2); border-radius: 2px; }
 ::-webkit-scrollbar-thumb:hover { background: rgba(0,212,255,0.45); }
+section, footer { background: transparent !important; }
