@@ -9,7 +9,7 @@ const certifications = [
     description: "Certified in cloud concepts, Azure services, and solutions architecture fundamentals.",
     level: "Fundamental",
     skills: ["Azure Services", "Cloud Computing", "Microsoft Cloud"],
-    
+    image: "https://drive.google.com/thumbnail?id=FILE_ID&sz=w1000",
     link: "https://drive.google.com/file/d/10n8-XPA_4VVBQD15kJ5L-JUoQKtgiBO7/preview?usp=drive_link",
     featured: true,
     accent: "#0078D4",
